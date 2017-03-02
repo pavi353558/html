@@ -1,0 +1,111 @@
+body{
+	background-image: url(https://ih0.redbubble.net/image.54684908.9510/flat,800x800,075,f.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+/*--------------------------HEADER------------------------------*/
+header{
+	position: fixed;
+	background-color: #FFC0CB;
+	height: 95px;
+	padding-right: 10px;
+}
+
+.grid_2 img{
+	width: 150px;
+	height: 95px;
+	margin-left: -10px;
+	/*padding-left: 5px;*/
+}
+.grid_10{
+	
+	margin-left: -10px;
+	
+}
+.grid_10 ul{
+	margin-top: 11px;
+	padding-bottom: 20px;
+	padding-top: 25px;
+}
+.grid_10 li{
+	display: inline;
+	
+}
+.grid_10 a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+	font-variant: bold;
+	font-family: Bree Serif;
+	font-size: 20px;
+}
+.grid_10 a:hover{
+	color:white;
+}
+
+/*--------------------------HEADER------------------------------*/
+
+
+
+
+
+
+
+
+/*--------------------------3 COLUMN GRID------------------------------*/
+.grid_4{
+	margin-top: 30px;
+	background-color: #F5F5F5;
+	color: #FF7A59;
+	font-family: Trade Winds;
+}
+.grid_4 img{
+	width:300px;
+	height: 250px;
+}
+/*--------------------------3 COLUMN GRID------------------------------*/
+
+
+
+
+
+
+/*------------------------HERO SECTION-----------------------------*/
+.grid_12{
+	margin-top: 40px;
+	
+}
+/*------------------------HERO SECTION-----------------------------*/
+
+
+
+
+
+/*------------------------2 VERTICAL COLUMN SECTION-----------------------------*/
+
+.wrap1{
+	margin-top: 30px;
+}
+
+/*------------------------2 VERTICAL COLUMN SECTION-----------------------------*/
+
+
+
+
+
+/*------------------------FOOTER-----------------------------*/
+
+footer .grid_12{
+	background-color: black;
+	color: white;
+	text-align:right;
+	height:70px;
+	padding-top: 10px;
+}
+
+
+/*------------------------FOOTER-----------------------------*/
+

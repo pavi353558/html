@@ -1,0 +1,116 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+body{
+   background-image: url(https://ih0.redbubble.net/image.54684908.9510/flat,800x800,075,f.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+#footer{
+   background-color: black;
+   color:white;
+   font-size: 12px;
+}
+#footer ul{
+   list-style: none;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+#features{
+   margin-top: 80px;
+   text-align: justify;
+}
+#img{
+   margin: 0;width: 100%
+}
+.hero{
+   text-align: justify;
+}
+#alertMe{
+   margin-top: 20px;
+
+}
+#successAlert{
+   margin-top: 10px;
+   display: none;
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #searchInput{
+      width: 200px;
+   }
+   
+   #main{
+      margin-top: 20px;
+   }
+   #tabs{
+      padding-left: 10px;
+      margin-top: 10px;
+   }
+   #right_tab, #form{
+      margin-top: 10px;
+   }
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#myCarousel .item{
+   height: 600px;
+   background-size: 100% 600px;
+}
+#slide1{
+   background: url('../../images/img5.jpg') top center no-repeat;
+
+}
+#slide2{
+   background: url('../../images/img7.jpg') top center no-repeat;
+}
+#slide3{
+   background: url('../../images/img6.jpg') top center no-repeat;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}

@@ -36,9 +36,11 @@ body{
 #features{
    margin-top: 80px;
    text-align: justify;
+
 }
-#img{
-   margin: 0;width: 100%
+#panel_img{
+   margin: 0;
+   width:100%;
 }
 .hero{
    text-align: justify;
@@ -74,9 +76,11 @@ body{
 /* --------------------------------------
    Carousel
    -------------------------------------- */
+
 #myCarousel .item{
    height: 600px;
    background-size: 100% 600px;
+
 }
 #slide1{
    background: url('../../images/img5.jpg') top center no-repeat;
@@ -105,12 +109,40 @@ body{
 	
 }
 
-/* Landscape phone to portrait tablet */
+ /*Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-	
+	#myCarousel .item{
+   height: 300px;
+   background-size: 100% 400px;
+
+}
+#slide1{
+   background: url('../../images/img5.jpg') top center no-repeat;
+
+}
+#slide2{
+   background: url('../../images/img7.jpg') top center no-repeat;
+}
+#slide3{
+   background: url('../../images/img6.jpg') top center no-repeat;
+}
 }
 
 /* Large desktop */
 @media (min-width: 1200px) {
-	
+#myCarousel .item{
+   height: 600px;
+   background-size: 100% 600px;
+
+}
+#slide1{
+   background: url('../../images/img5.jpg') top center no-repeat;
+
+}
+#slide2{
+   background: url('../../images/img7.jpg') top center no-repeat;
+}
+#slide3{
+   background: url('../../images/img6.jpg') top center no-repeat;
+}	
 }

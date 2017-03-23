@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>Assignment15</title>
+</head>
+<body>
+	<p id='pid'></p>
+	<script type="text/javascript">
+		var myObj = 
+					[	{'name':'Saurabh', 'age': 30, 'occupation': "Team Leader"},
+						{'name':'Anupriya', 'age': 32, 'occupation': "Team Leader"},
+						{'name':'Kalyani', 'age': 25, 'occupation': "Programmer"},
+						{'name':'Damodaran', 'age': 27, 'occupation': "Programmer"},
+						{'name':'Krishnakath', 'age': 22, 'occupation': "Programmer"},
+						{'name':'Venketraman', 'age': 28, 'occupation': "Programmer"}
+					];
+		var ex1 = myObj.forEach(function(x){
+			if(x.occupation=="Programmer")
+				console.log(x);
+		});
+		sort_arr = myObj.sort(function compare(a,b){
+				return b.age - a.age;
+		});
+		console.log(sort_arr);
+
+		var newObj={
+			TeamLeader : [],
+			Programmer : []
+		};
+		
+		var ex3 = myObj.forEach(function(x){
+      				if(x.occupation=="Team Leader"){
+          			delete x.occupation;
+	       			newObj['TeamLeader'].push(x);
+				}
+				else{
+			 		 delete x.occupation;
+			  		newObj['Programmer'].push(x);
+				}
+		});
+		console.log(newObj);
+	</script>
+</body>
+</html>

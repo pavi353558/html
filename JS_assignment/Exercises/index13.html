@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>Assignment13</title>
+</head>
+<body>
+	<p id='pid'></p>
+	<script type="text/javascript">
+		var a="webmaster";
+		var b='e';
+		var occ=0;
+		document.getElementById('pid').innerHTML += "Given String: "+a+"<br>";
+		document.getElementById('pid').innerHTML += "Character to find: "+b+"<br>";
+		document.getElementById('pid').innerHTML += "No. of Occurences: "+find(a,b);
+		function find(str,ch){
+  			for(i=0;i<str.length;i++){
+   				if(str.charAt(i)==ch)
+      				occ++;
+  			}
+ 			 return occ;
+		}
+	</script>
+
+
+</body>
+</html>

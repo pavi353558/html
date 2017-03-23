@@ -1,0 +1,33 @@
+      body{
+         background: url("https://image.freepik.com/free-vector/dark-red-stage-curtain_23-2147496813.jpg");
+         background-repeat: no-repeat;
+         background-size: cover;
+      }
+      .navbar-default {
+    background-color: #B84C4C;
+    border-color: #E7E7E7;
+}
+      #logo{
+         margin-bottom: -14px;
+         margin-top: -15px;
+         padding-right: 150px; 
+      }
+      #cont_id1{
+         font-size: 18px;
+         color: white;
+         font-style: bold;
+         margin-top: 100px;
+         text-align: center;
+      }   
+      #panel_img{
+            margin: 0;
+            width:300px;
+            height: 400px;
+      }
+      #id1{
+         width: 200px;
+      }
+      #form{
+            margin-top: 10px;
+         }
+  

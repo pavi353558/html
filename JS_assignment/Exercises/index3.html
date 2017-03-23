@@ -1,0 +1,27 @@
+<html>
+<head>
+	<title>Assignment3</title>
+</head>
+<body>
+	<!-- <form>
+		<input id="id1" name="id1">
+		<input type="submit" name="Click" onclick="display()"></button>
+	</form> -->
+	<p id="pid"></p>
+	<script type="text/javascript">
+		var x = prompt("");
+		var len = x.length;
+		var y = "";
+		document.getElementById('pid').innerHTML += "Given Number: "+ x + "<br>";
+		for(i=0;i<len;i++){
+			if(x[i]%2==0 && (x[i+1])%2==0){
+				y += x[i] + "-";
+			}
+			else
+				y += x[i];
+		}
+		document.getElementById('pid').innerHTML +="Output: " +y;
+	
+	</script>
+</body>
+</html>

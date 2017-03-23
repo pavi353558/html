@@ -1,0 +1,36 @@
+<html>
+<head>
+	<title>Assignment7</title>
+</head>
+<body>
+	<p id='pid'></p>
+	<script type="text/javascript">
+	var library = [
+  		{ author: 'Bill Gates', title: 'The Road Ahead', libraryID: 1254},
+  		{ author: 'Steve Jobs', title: 'Walter Isaacson', libraryID: 4264},
+  		{ author: 'Suzanne Collins', title: 'Mockingjay: The Final Book of The Hunger Games', libraryID: 3245}
+  	];
+
+	library.sort(function(a,b){
+ 	 	x = a.title;
+  		y = b.title;
+  		if(x < y)
+   			return -1;
+ 		else if(x > y)
+    		return 1;
+  		else
+    		return 0;
+	})
+		console.log(library);
+		var arr=library.forEach(function(k){
+			document.getElementById('pid').innerHTML += '{' ;
+			for(i in k)
+				document.getElementById('pid').innerHTML +=  i + ":" +  k[i] + ",";
+			document.getElementById('pid').innerHTML += "} <br>" ;
+		});
+		 
+	//arr(library);
+	
+	</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>Assignment10</title>
+</head>
+<body>
+	<p id='pid'></p>
+	<script type="text/javascript">
+		var student = {
+			name : ['David', 'Vinoth','Divya','Ishitha','Thomas'],
+			marks : [80,77,88,95,68]
+		};
+		var y=0;
+		var avg = student['marks'].forEach(function(x){
+			y += x;
+			y /= 5;
+		});
+		if(y < 100)
+			grade = 'A';
+		else if(y < 90)
+			grade = 'B';
+		if(y < 80)
+			grade = 'C';
+		if(y < 70)
+			grade = 'D';
+		if(y < 60)
+			grade = 'E';
+		document.getElementById('pid').innerHTML += "Average: " + y +"<br>";
+		document.getElementById('pid').innerHTML += "Grade: " +grade;
+	</script>
+</body>
+</html>

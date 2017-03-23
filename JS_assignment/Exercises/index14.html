@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>Assignment14</title>
+</head>
+<body>
+	<p id='pid'></p>
+	<script type="text/javascript">
+		var myObj = [5, [22], [[14]], [[4]],[5,6]];
+		const flat = arr => arr.reduce(
+  			(acc, val) => acc.concat(
+    			Array.isArray(val) ? flat(val) : val
+  			),
+  			[]
+		);
+		document.getElementById('pid').innerHTML += flat(myObj);
+		console.log(flat(myObj));
+	</script>
+</body>
+</html>

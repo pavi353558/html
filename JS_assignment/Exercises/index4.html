@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title>Assignment 4</title>
+</head>
+<body>
+	<p id='pid'></p>
+	<script>
+		var arr=[23,12,240,35,120];
+		//var arr=["cap","ape","bar"]
+		
+		document.getElementById('pid').innerHTML += "Given Array: "+ arr +"<br>";
+		if(typeof arr[0] == "number"){
+			sort_arr = arr.sort(function compare(a,b){
+				return a - b;
+			});
+		}
+		else
+			sort_arr = arr.sort();
+		
+		document.getElementById('pid').innerHTML += "Sorted Array: "+ sort_arr ;
+		
+	</script>
+</body>
+</html>

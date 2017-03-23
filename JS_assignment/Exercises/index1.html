@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title>Assignment1</title>
+</head>
+<body>
+	<p id='pid'></p>
+	<script>
+		document.getElementById('pid').innerHTML += myDate();
+		function myDate(){
+			var date = new Date();
+			return date.getMonth()+1 + "/" + date.getDate() + "/" + date.getFullYear();
+		}
+		
+		
+	</script>
+</body>
+</html>

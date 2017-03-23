@@ -1,0 +1,27 @@
+<html>
+<head>
+	<title>Assignment5</title>
+</head>
+<body>
+	<p id='pid'></p>
+	<script>
+		//var arr=[23,12,43,12,120,12,43];
+		var arr = [1,6,0,7,0,8];
+		document.getElementById('pid').innerHTML += "Given Array: "+arr + "<br>";
+		var arr1=[];
+		for(i=0;i<arr.length;i++) {
+			if(arr[i]!='$'){
+				arr1.push(arr[i]);
+			}
+			for(j=i+1;j<arr.length;j++){
+				if(arr[i]==arr[j] && arr[i]!='$'){
+					arr[j]='$';
+				}
+			}
+		}
+		
+		document.getElementById('pid').innerHTML += "New Array: "+arr1;
+
+	</script>
+</body>
+</html>
